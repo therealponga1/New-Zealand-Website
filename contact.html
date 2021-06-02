@@ -61,19 +61,21 @@
   </header>
  <h1 style="text-align:center;">Contact Us</h1>
     <div class="container">
-        <form  name="contactForm" action="/action_page.php" onsubmit="return validateForm()" method="post">
+        <form  name="contactForm" action="" onsubmit="" method="post">
 
             <input type="text"  name="fname"  placeholder="Your Name">
             <hr>
             <input type="text" id="email" name="email" placeholder="Your Email">
             <hr>
             <textarea name="message" id="message" placeholder="Message Here.." style="height:200px;"></textarea>
-
+            
             <input type="submit" value="Send">
-
+            
         </form> 
     </div>
-  
+  <!-- Success message -->
+<div class="alert alert-success" role="alert" id="success_message">Success <i class="glyphicon glyphicon-thumbs-up"></i> Thanks for contacting us, we will get back to you shortly.</div>
+
   <!-- Footer -->
   <footer class="page-footer font-small bg-dark">
     <!-- Copyright -->
